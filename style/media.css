@@ -1,0 +1,419 @@
+@media all and (min-width: 1024px ) {
+
+    /* header  */
+    .header-all {
+        height: 754px;
+        background-image: url(../img/ipod-header.png);
+    }
+
+    .menu {
+        display: block;
+        
+    }
+
+    .menu a {
+        color: #000;
+        font-family: Manrope;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+    }
+    .menu-list-link {
+
+        position: relative;
+     
+        text-decoration: none;
+        
+     }
+     
+     .menu-list-link::after {
+         content: "";
+         position: absolute;
+         left: 0;
+         bottom: -7px;
+         height: 2px;
+         width: 0%;
+         background-color:#232325;
+     
+         transition: all .3s;
+     }
+     
+     .menu-list-link:hover::after {
+         width: 100%;
+     }
+
+    .menu-img {
+        display: none;
+    }
+
+    .header-h1 {
+        color: #000;
+        font-family: Manrope;
+        font-size: 5.6rem;
+        font-weight: 800;
+        line-height: 73.5px;
+
+        text-align: left;
+        padding-left: 104px;
+    }
+
+    .header-description {
+        color: #000;
+
+       font-family: Manrope;
+       font-size: 2rem;
+       font-weight: 400;
+       line-height: 36px;
+       letter-spacing: 0.2px;
+
+       max-width: 644px;
+       text-align: left;
+       padding-left: 84px;
+       padding-bottom: 200px;
+       margin-inline: none ;
+    }
+
+    .menu {
+        margin-top: 6px;
+        margin-left: 150px ;
+    }
+
+   
+    .section1-boxes {
+        grid-template-columns: auto auto;
+    }
+
+    .main-h1 {
+        padding-bottom: 30px;
+    }
+
+    .main-p {
+        max-width: 852px;
+        margin-inline: auto;
+        
+        color: #000;
+
+        text-align: center;
+        font-family: Manrope;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 39.5px; 
+        letter-spacing: 0.2px
+    }
+
+
+    /* ** ** ** ** main ** ** ** ** */
+
+    /* section - 1  */
+
+    .section1-boxes {
+        grid-template-columns: auto auto;
+    }
+
+    .img-chartbarbox
+    , .img-crownbox
+    , .img-vector
+    , .img-chatbox5
+    , .img-figmalogbox {
+        display: none;
+    }
+
+    .crown-box1 {
+        position: absolute;
+        width: 76px;
+        height: 50.543px;
+        top: 1106px;
+
+        display: block;
+    }
+
+    .img-file{
+        position: absolute;
+
+    }
+
+    .box1-Ellipse {
+        position: relative;
+
+    }
+
+    .main-h1 {
+        padding-bottom: 30px;
+    }
+
+    .main-p {
+        max-width: 852px;
+        margin-inline: auto;
+        
+        color: #000;
+
+        text-align: center;
+        font-family: Manrope;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 39.5px; 
+        letter-spacing: 0.2px
+    }
+
+    .section1-boxes p {
+        color: #000;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        letter-spacing: 0.2px;
+    }
+
+    .section1-boxes h1 {
+        color: #000;
+        text-align: center;
+        font-size: 3.6rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+
+    /* ** ** ** section-2 ** ** ** */
+    .section2-box1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .section2-box1-img {
+        padding-top: 48px;
+    }
+
+    .section2-box1-fonts {
+        max-width: 428px;
+        display: block;
+    }
+
+    
+    .section2 p {
+        color:  #808080;
+    text-align: left;
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; 
+    
+    padding-bottom: 40px
+    }
+
+    .section2 h1 {
+        color:  #2E2E2E;
+    
+        text-align: left;
+        font-family: Manrope;
+        font-size: 5.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41.5px; 
+    
+        padding-top: 30px;
+        padding-bottom: 61px;
+    }
+
+    .section2-box1-p {
+        text-align: center;
+    }
+
+    .section2-box2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section2-box2-img {
+        padding-top: 35px;
+    }
+
+    .section2-box2-fonts {
+        display: block;
+        max-width: 428px;
+    }
+
+    .box1-button
+    , .box2-button {
+        display: flex;
+        width: 160px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 48px;
+    }
+
+    /* footer */
+
+    .conteiner3  {
+        display: flex;
+        height: 536px;
+        flex-direction: column;
+        gap: 49px;
+        flex-shrink: 0;
+        padding: 80px 60px 152px 60.96px;
+        
+    }
+    
+    .conteiner3-boxes {
+        display: flex;
+        justify-content: space-between;
+        gap: 49px;
+    }
+    
+
+
+
+
+}
+
+
+@media all and  (min-width:1440px) {
+
+    .header-all {
+        height: 754px;
+        background-image: url(../img/Rectangle\ 1.jpg);
+    }
+
+    .header-h1 {
+        padding-top: 72px;
+        padding-left: 143px;
+
+        color: #000;
+        font-family: Manrope;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 82px; 
+    }
+
+    .header-description {
+        padding-top: 102px;
+        max-width: 760px;
+        padding-left: 123px;
+
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.2px;
+    }
+
+    .menu-list-link {
+        color: #000;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+
+    header {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu-img {
+        display: none;
+    }
+
+    /* ** ** ** main ** ** **  */
+
+    /* section-1 */
+
+    .section1-boxes {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+    }
+
+    .crown-box1 {
+        display: none;
+    }
+
+
+    .img-chartbarbox
+    , .img-crownbox
+    , .img-vector
+    , .img-chatbox5
+    , .img-figmalogbox {
+        display: block;
+    }
+
+    .section1-boxes h1 {
+        color: #000;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 3.6rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+    }
+
+    .section1-boxes p {
+
+        color: #000;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        letter-spacing: 0.2px;
+
+    }
+
+    /* section2 */
+
+    .section2 h1 {
+        color: var(--text-title, #2E2E2E);
+        font-family: Manrope;
+        font-size: 6.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 76px; 
+
+    }
+
+    .section2 p {
+        color: var(--text-body, #808080);
+        font-family: Manrope;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; 
+
+    }
+
+    /* footer */
+
+    .conteiner3-boxes {
+        margin-left: 12%;
+    }
+
+    .conteiner3 span {
+        margin-left: 12%;
+    }
+
+
+
+    }
+
+   
+
+
