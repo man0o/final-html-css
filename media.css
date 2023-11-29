@@ -3,7 +3,7 @@
     /* header  */
     .header-all {
         height: 754px;
-        background-image: url(img/ipod-header.png);
+        background-image: url(ipod-header.png);
     }
 
     .menu {
@@ -280,7 +280,7 @@
 
     .header-all {
         height: 754px;
-        background-image: url(img/Rectangle\ 1.jpg);
+        background-image: url(Rectangle\ 1.jpg);
     }
 
     .header-h1 {
@@ -409,8 +409,6 @@
     .conteiner3 span {
         margin-left: 12%;
     }
-
-
 
     }
 
